@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
         color: Math.random() > 0.5 ? '#ffb703' : '#fb8500',
       });
     }
-
+    
     let animFrame: number;
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);

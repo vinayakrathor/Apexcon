@@ -40,13 +40,13 @@ const services = [
     features: ['Manufacturing Plants', 'Warehousing', 'Power Plants', 'Port Infrastructure'],
     number: '05',
   },
-  {
-    icon: '🪟',
-    title: 'Interior & Exterior Works',
-    desc: 'Premium finishing works that transform spaces — from architectural facades to luxury interior design.',
-    features: ['Facade Systems', 'Interior Fit-Out', 'Landscaping', 'MEP Services'],
-    number: '06',
-  },
+  // {
+  //   icon: '🪟',
+  //   title: 'Interior & Exterior Works',
+  //   desc: 'Premium finishing works that transform spaces — from architectural facades to luxury interior design.',
+  //   features: ['Facade Systems', 'Interior Fit-Out', 'Landscaping', 'MEP Services'],
+  //   number: '06',
+  // },
 ];
 
 const Services: React.FC = () => {
